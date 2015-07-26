@@ -5,6 +5,10 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /test\.html
+  static_files: static/test.html
+  upload: static/test\.html
+  
 - url: .*
   script: myproject.wsgi.application
 

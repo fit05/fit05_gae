@@ -1,5 +1,5 @@
 from django import http
 
 def home(request):
-
-    return http.HttpResponse('エラーテスト')
+    def
+    return http.HttpResponse('hello world!')
